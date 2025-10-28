@@ -829,11 +829,10 @@
     <None Include="Icons\Written Test 512.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DVLD Business Layer\DVLD Business Layer.csproj">
+    <ProjectReference Include="DVLD Business Layer\DVLD Business Layer.csproj">
       <Project>{b15c438d-337d-4d05-a161-8cfbb914bccf}</Project>
       <Name>DVLD Business Layer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

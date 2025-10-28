@@ -5,9 +5,9 @@ VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Driver License management", "Project Driver License management.csproj", "{1D0D74C7-B506-410A-89A0-961558025BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acess Data Layer", "..\Acess Data Layer\Acess Data Layer.csproj", "{A5710111-209D-4186-932C-725104A084B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acess Data Layer", "Acess Data Layer\Acess Data Layer.csproj", "{A5710111-209D-4186-932C-725104A084B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD Business Layer", "..\DVLD Business Layer\DVLD Business Layer.csproj", "{B15C438D-337D-4D05-A161-8CFBB914BCCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD Business Layer", "DVLD Business Layer\DVLD Business Layer.csproj", "{B15C438D-337D-4D05-A161-8CFBB914BCCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
