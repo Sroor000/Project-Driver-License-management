@@ -206,6 +206,7 @@
             // US_CardInternationalLicenseInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "US_CardInternationalLicenseInfo";
             this.groupBox1.ResumeLayout(false);

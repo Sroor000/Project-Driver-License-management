@@ -216,6 +216,7 @@ namespace DVLD_Presntation_Layer
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Honeydew;
             this.panel1.Controls.Add(this.LK_RemovePicture);
             this.panel1.Controls.Add(this.DTP_DateOfBirth);
             this.panel1.Controls.Add(this.RBtn_Female);
@@ -323,8 +324,9 @@ namespace DVLD_Presntation_Layer
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Teal;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.Location = new System.Drawing.Point(764, 379);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(119, 45);
@@ -339,9 +341,9 @@ namespace DVLD_Presntation_Layer
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Red;
+            this.guna2Button1.FillColor = System.Drawing.Color.Teal;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.Location = new System.Drawing.Point(601, 379);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(110, 45);
@@ -440,12 +442,12 @@ namespace DVLD_Presntation_Layer
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // US_AddorUpdate_Data_User
+            // US_AddorUpdatePeople
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Name = "US_AddorUpdate_Data_User";
+            this.Name = "US_AddorUpdatePeople";
             this.Size = new System.Drawing.Size(892, 432);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

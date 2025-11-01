@@ -39,13 +39,14 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(242, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(584, 39);
+            this.label1.Size = new System.Drawing.Size(559, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "InterNational Licenses Applications";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // uS_FindLicense1
             // 
+            this.uS_FindLicense1.BackColor = System.Drawing.Color.Honeydew;
             this.uS_FindLicense1.Location = new System.Drawing.Point(12, 76);
             this.uS_FindLicense1.Name = "uS_FindLicense1";
             this.uS_FindLicense1.Size = new System.Drawing.Size(1043, 863);
@@ -56,6 +57,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1066, 959);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.uS_FindLicense1);

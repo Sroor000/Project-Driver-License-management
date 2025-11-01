@@ -46,14 +46,17 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Project_Driver_License_management.Properties.Resources.Local_Driving_License_512;
             this.pictureBox1.Location = new System.Drawing.Point(277, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(439, 243);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // uS_CardLicenseInfo1
             // 
+            this.uS_CardLicenseInfo1.BackColor = System.Drawing.Color.Honeydew;
             this.uS_CardLicenseInfo1.Location = new System.Drawing.Point(33, 363);
             this.uS_CardLicenseInfo1.Name = "uS_CardLicenseInfo1";
             this.uS_CardLicenseInfo1.Size = new System.Drawing.Size(1030, 432);
@@ -63,6 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1116, 830);
             this.Controls.Add(this.uS_CardLicenseInfo1);
             this.Controls.Add(this.pictureBox1);

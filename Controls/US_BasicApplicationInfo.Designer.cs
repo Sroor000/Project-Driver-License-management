@@ -275,6 +275,8 @@
             // 
             // US_BasicApplicationInfo
             // 
+            this.BackColor = System.Drawing.Color.Honeydew;
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox1);

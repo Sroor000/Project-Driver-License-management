@@ -139,6 +139,8 @@
             // 
             // US_ShowTableData
             // 
+            this.BackColor = System.Drawing.Color.Honeydew;
+
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Txt_Search);

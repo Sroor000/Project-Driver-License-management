@@ -104,6 +104,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 740);
+            this.BackColor = System.Drawing.Color.Teal;
+
             this.Controls.Add(this.PB_InternationalLicenses);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.uS_ShowTableData1);

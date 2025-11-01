@@ -68,21 +68,21 @@
             this.tabControl1.Location = new System.Drawing.Point(27, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(855, 437);
+            this.tabControl1.Size = new System.Drawing.Size(911, 437);
             this.tabControl1.TabIndex = 2;
             // 
             // TB_Personalinfo
             // 
+            this.TB_Personalinfo.BackColor = System.Drawing.Color.Honeydew;
             this.TB_Personalinfo.Controls.Add(this.panel1);
             this.TB_Personalinfo.Controls.Add(this.uS_Card_People_Info1);
             this.TB_Personalinfo.Controls.Add(this.Btn_NextPage);
             this.TB_Personalinfo.Location = new System.Drawing.Point(4, 25);
             this.TB_Personalinfo.Name = "TB_Personalinfo";
             this.TB_Personalinfo.Padding = new System.Windows.Forms.Padding(3);
-            this.TB_Personalinfo.Size = new System.Drawing.Size(847, 408);
+            this.TB_Personalinfo.Size = new System.Drawing.Size(903, 408);
             this.TB_Personalinfo.TabIndex = 0;
             this.TB_Personalinfo.Text = "Personalinfo";
-            this.TB_Personalinfo.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -169,10 +169,11 @@
             // 
             // uS_Card_People_Info1
             // 
+            this.uS_Card_People_Info1.BackColor = System.Drawing.Color.Honeydew;
             this.uS_Card_People_Info1.Location = new System.Drawing.Point(6, 92);
             this.uS_Card_People_Info1.Name = "uS_Card_People_Info1";
             this.uS_Card_People_Info1.PersonID = 0;
-            this.uS_Card_People_Info1.Size = new System.Drawing.Size(816, 259);
+            this.uS_Card_People_Info1.Size = new System.Drawing.Size(872, 259);
             this.uS_Card_People_Info1.TabIndex = 1;
             // 
             // Btn_NextPage
@@ -338,11 +339,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.Controls.Add(this.Btn_Exit);
             this.Controls.Add(this.Btn_Save);
             this.Controls.Add(this.tabControl1);
             this.Name = "US_Add_Update_UserData";
-            this.Size = new System.Drawing.Size(909, 516);
+            this.Size = new System.Drawing.Size(955, 516);
             this.tabControl1.ResumeLayout(false);
             this.TB_Personalinfo.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

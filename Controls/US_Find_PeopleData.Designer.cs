@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(US_Find_PeopleData));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uS_Card_People_Info1 = new Project_Driver_License_management.US_Card_People_Info();
-            this.Btn_NextPage = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Btn_SearchPerson = new Guna.UI2.WinForms.Guna2Button();
             this.Btn_AddPerson = new Guna.UI2.WinForms.Guna2Button();
             this.Txt_Search = new System.Windows.Forms.TextBox();
             this.Cmb_Filter = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.uS_Card_People_Info1 = new Project_Driver_License_management.US_Card_People_Info();
+            this.Btn_NextPage = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.Color.Honeydew;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.uS_Card_People_Info1);
             this.panel1.Controls.Add(this.Btn_NextPage);
@@ -53,29 +53,6 @@
             this.panel1.Size = new System.Drawing.Size(663, 397);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // uS_Card_People_Info1
-            // 
-            this.uS_Card_People_Info1.Location = new System.Drawing.Point(0, 72);
-            this.uS_Card_People_Info1.Name = "uS_Card_People_Info1";
-            this.uS_Card_People_Info1.Size = new System.Drawing.Size(657, 259);
-            this.uS_Card_People_Info1.TabIndex = 7;
-            // 
-            // Btn_NextPage
-            // 
-            this.Btn_NextPage.AutoRoundedCorners = true;
-            this.Btn_NextPage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_NextPage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_NextPage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_NextPage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_NextPage.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Btn_NextPage.ForeColor = System.Drawing.Color.Black;
-            this.Btn_NextPage.Location = new System.Drawing.Point(548, 337);
-            this.Btn_NextPage.Name = "Btn_NextPage";
-            this.Btn_NextPage.Size = new System.Drawing.Size(108, 45);
-            this.Btn_NextPage.TabIndex = 6;
-            this.Btn_NextPage.Text = "Next";
-            this.Btn_NextPage.Click += new System.EventHandler(this.Btn_NextPage_Click);
             // 
             // groupBox1
             // 
@@ -153,6 +130,31 @@
             this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "Find by";
+            // 
+            // uS_Card_People_Info1
+            // 
+            this.uS_Card_People_Info1.BackColor = System.Drawing.Color.Honeydew;
+            this.uS_Card_People_Info1.Location = new System.Drawing.Point(0, 72);
+            this.uS_Card_People_Info1.Name = "uS_Card_People_Info1";
+            this.uS_Card_People_Info1.PersonID = 0;
+            this.uS_Card_People_Info1.Size = new System.Drawing.Size(657, 259);
+            this.uS_Card_People_Info1.TabIndex = 7;
+            // 
+            // Btn_NextPage
+            // 
+            this.Btn_NextPage.AutoRoundedCorners = true;
+            this.Btn_NextPage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_NextPage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_NextPage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_NextPage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_NextPage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Btn_NextPage.ForeColor = System.Drawing.Color.Black;
+            this.Btn_NextPage.Location = new System.Drawing.Point(548, 337);
+            this.Btn_NextPage.Name = "Btn_NextPage";
+            this.Btn_NextPage.Size = new System.Drawing.Size(108, 45);
+            this.Btn_NextPage.TabIndex = 6;
+            this.Btn_NextPage.Text = "Next";
+            this.Btn_NextPage.Click += new System.EventHandler(this.Btn_NextPage_Click);
             // 
             // US_Find_PeopleData
             // 

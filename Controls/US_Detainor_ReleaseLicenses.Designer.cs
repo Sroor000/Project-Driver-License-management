@@ -293,8 +293,9 @@
             this.Btn_ReNew.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.Btn_ReNew.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.Btn_ReNew.Enabled = false;
+            this.Btn_ReNew.FillColor = System.Drawing.Color.Teal;
             this.Btn_ReNew.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Btn_ReNew.ForeColor = System.Drawing.Color.White;
+            this.Btn_ReNew.ForeColor = System.Drawing.Color.Black;
             this.Btn_ReNew.Location = new System.Drawing.Point(903, 780);
             this.Btn_ReNew.Name = "Btn_ReNew";
             this.Btn_ReNew.Size = new System.Drawing.Size(138, 45);
@@ -308,9 +309,9 @@
             this.Btn_Close.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Btn_Close.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.Btn_Close.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_Close.FillColor = System.Drawing.Color.Red;
+            this.Btn_Close.FillColor = System.Drawing.Color.Teal;
             this.Btn_Close.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Btn_Close.ForeColor = System.Drawing.Color.White;
+            this.Btn_Close.ForeColor = System.Drawing.Color.Black;
             this.Btn_Close.Location = new System.Drawing.Point(704, 780);
             this.Btn_Close.Name = "Btn_Close";
             this.Btn_Close.Size = new System.Drawing.Size(119, 45);
@@ -323,6 +324,7 @@
             this.LK_LB_ShowLinceseInfo.AutoSize = true;
             this.LK_LB_ShowLinceseInfo.Enabled = false;
             this.LK_LB_ShowLinceseInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LK_LB_ShowLinceseInfo.LinkColor = System.Drawing.Color.DarkSlateGray;
             this.LK_LB_ShowLinceseInfo.Location = new System.Drawing.Point(241, 794);
             this.LK_LB_ShowLinceseInfo.Name = "LK_LB_ShowLinceseInfo";
             this.LK_LB_ShowLinceseInfo.Size = new System.Drawing.Size(163, 20);
@@ -336,6 +338,7 @@
             this.LKLB_ShowLIcenseHistory.AutoSize = true;
             this.LKLB_ShowLIcenseHistory.Enabled = false;
             this.LKLB_ShowLIcenseHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LKLB_ShowLIcenseHistory.LinkColor = System.Drawing.Color.DarkSlateGray;
             this.LKLB_ShowLIcenseHistory.Location = new System.Drawing.Point(31, 794);
             this.LKLB_ShowLIcenseHistory.Name = "LKLB_ShowLIcenseHistory";
             this.LKLB_ShowLIcenseHistory.Size = new System.Drawing.Size(193, 20);
@@ -422,6 +425,7 @@
             // 
             // uS_LicenseInfoCardcs1
             // 
+            this.uS_LicenseInfoCardcs1.BackColor = System.Drawing.Color.Honeydew;
             this.uS_LicenseInfoCardcs1.Location = new System.Drawing.Point(11, 109);
             this.uS_LicenseInfoCardcs1.Name = "uS_LicenseInfoCardcs1";
             this.uS_LicenseInfoCardcs1.Size = new System.Drawing.Size(1030, 421);
@@ -431,6 +435,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.Controls.Add(this.uS_LicenseInfoCardcs1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Btn_ReNew);
