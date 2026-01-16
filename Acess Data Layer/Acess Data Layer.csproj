@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PeopleData\ClsPeopleAccessData.cs" />
     <Compile Include="ClsDataBase .cs" />
+    <Compile Include="PeopleData\DatabaseConnection.cs" />
+    <Compile Include="PeopleData\PeopleDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

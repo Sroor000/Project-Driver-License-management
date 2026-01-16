@@ -17,6 +17,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Project_Driver_License_management
 {
+
     public class ClsDataBase
     {
         public static string Str_Connection = "Server=.;DataBase=DVLD;User ID=sa;Password=123456;";

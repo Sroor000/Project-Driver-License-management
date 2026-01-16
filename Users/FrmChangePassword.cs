@@ -64,7 +64,7 @@ namespace Project_Driver_License_management
         {
             if (IsRight())
             {
-                User.Password = Txt_NewPassword.Text;
+                User.Password = ClsUtility.ComputeHash(Txt_NewPassword.Text);
 
                 if (User.Save())
                 {

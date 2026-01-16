@@ -111,7 +111,7 @@
             this.Btn_Exit.FillColor = System.Drawing.Color.Red;
             this.Btn_Exit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_Exit.ForeColor = System.Drawing.Color.Black;
-            this.Btn_Exit.Location = new System.Drawing.Point(472, 482);
+            this.Btn_Exit.Location = new System.Drawing.Point(654, 482);
             this.Btn_Exit.Name = "Btn_Exit";
             this.Btn_Exit.Size = new System.Drawing.Size(114, 45);
             this.Btn_Exit.TabIndex = 5;
@@ -127,7 +127,7 @@
             this.Btn_Save.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.Btn_Save.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_Save.ForeColor = System.Drawing.Color.Black;
-            this.Btn_Save.Location = new System.Drawing.Point(602, 482);
+            this.Btn_Save.Location = new System.Drawing.Point(784, 482);
             this.Btn_Save.Name = "Btn_Save";
             this.Btn_Save.Size = new System.Drawing.Size(114, 45);
             this.Btn_Save.TabIndex = 6;
@@ -136,9 +136,10 @@
             // 
             // uS_Card_User_info1
             // 
+            this.uS_Card_User_info1.BackColor = System.Drawing.Color.Honeydew;
             this.uS_Card_User_info1.Location = new System.Drawing.Point(12, 12);
             this.uS_Card_User_info1.Name = "uS_Card_User_info1";
-            this.uS_Card_User_info1.Size = new System.Drawing.Size(655, 328);
+            this.uS_Card_User_info1.Size = new System.Drawing.Size(886, 328);
             this.uS_Card_User_info1.TabIndex = 0;
             // 
             // FrmChangePassword
@@ -146,7 +147,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(761, 539);
+            this.ClientSize = new System.Drawing.Size(910, 539);
             this.Controls.Add(this.Btn_Exit);
             this.Controls.Add(this.Btn_Save);
             this.Controls.Add(this.Txt_ConfirmNewPassword);
